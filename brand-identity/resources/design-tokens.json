@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "brand_name": "Ecom AI Solution Expert",
+    "market": "Algeria (DZ)",
+    "description": "Core design tokens for all content creation: social media carousels, reels, UI components, and marketing assets."
+  },
+  "colors": {
+    "primary_bg": {
+      "value": "#0C68E9",
+      "usage": "Main background color for all designs. The anchor of every carousel, story, reel."
+    },
+    "gradient_end": {
+      "value": "#60A5FA",
+      "usage": "Gradient end color. Used for cards, borders, and subtle highlights."
+    },
+    "background_gradient": {
+      "from": "#0C68E9",
+      "to": "#60A5FA",
+      "direction": "135deg",
+      "usage": "Primary gradient for carousels, stories, reels backgrounds."
+    },
+    "glass_card": {
+      "value": "rgba(255, 255, 255, 0.15)",
+      "usage": "Background for glass-effect cards and tables overlaid on the gradient."
+    },
+    "text_heading": {
+      "value": "#FFFFFF",
+      "usage": "All headings, hooks, and large impactful titles."
+    },
+    "text_body": {
+      "value": "#EFF6FF",
+      "usage": "Body text, explanations, and descriptive copy."
+    },
+    "accent_cta": {
+      "value": "#F97316",
+      "usage": "PRIMARY ACCENT — CTAs, highlighted numbers, key Arabic keywords. Use sparingly: 2–3 words MAX per design."
+    },
+    "destructive": "#EF4444",
+    "success": "#10B981"
+  },
+  "typography": {
+    "font_heading": {
+      "family": ["Cairo", "sans-serif"],
+      "weight_primary": "900",
+      "weight_secondary": "400",
+      "color": "#FFFFFF",
+      "sizes": {
+        "hook_main": "28px–40px",
+        "sub_heading": "20px–24px"
+      },
+      "usage": "ALL headings and hooks. Hook = Cairo Black (900). Sub-heading = Cairo Regular (400)."
+    },
+    "font_body": {
+      "family": ["Amiri", "sans-serif"],
+      "weight_primary": "700",
+      "weight_secondary": "400",
+      "color": "#EFF6FF",
+      "sizes": {
+        "body": "16px–18px"
+      },
+      "usage": "Long-form text, lists, benefits, explanations."
+    },
+    "font_cta": {
+      "family": ["Noto Sans Arabic", "sans-serif"],
+      "weight_primary": "600",
+      "weight_secondary": "300",
+      "color": "#F97316",
+      "sizes": {
+        "cta": "14px–16px"
+      },
+      "usage": "CTAs, caption text, small labels."
+    },
+    "size_scale": {
+      "hook": "28–40px (Cairo Black)",
+      "sub_heading": "20–24px (Cairo Bold)",
+      "body": "16–18px (Amiri Medium)",
+      "cta_caption": "14–16px (Noto SemiBold)"
+    }
+  },
+  "visual_style": {
+    "style_scale": {
+      "formality": "75% Casual / Relatable",
+      "complexity": "85% Minimalist / Simple",
+      "brightness": "70% Bright / Vibrant"
+    },
+    "photography": {
+      "rule_1": "Natural, real-life photos — no over-produced imagery",
+      "rule_2": "Good lighting with clean background",
+      "rule_3": "No exaggerated stock photos"
+    },
+    "video": {
+      "rule_1": "Talking-head style with B-roll from actual work",
+      "rule_2": "Captions are MANDATORY on every video",
+      "rule_3": "Hook in first 3 seconds — no exceptions"
+    },
+    "carousels_posts": {
+      "background": "Gradient #0C68E9 → #60A5FA at 135deg",
+      "heading_text": "#FFFFFF Bold",
+      "keyword_highlight": "#F97316 on 2–3 key words MAX",
+      "card_style": "rgba(255,255,255,0.15) glass effect with soft borders"
+    }
+  },
+  "ui": {
+    "border_radius_default": "0.75rem",
+    "border_radius_small": "0.375rem",
+    "spacing_base_unit": "4px"
+  }
+}
